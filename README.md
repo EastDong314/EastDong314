@@ -57,16 +57,6 @@ I will keep publishing sanitized and reusable engineering assets here:
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 </p>
 
-## GitHub Overview
-
-<p>
-  <img height="165" src="https://streak-stats.demolab.com?user=EastDong314&theme=transparent&hide_border=true" />
-</p>
-
-<p>
-  <img height="165" src="https://ghchart.rshah.org/409ba5/EastDong314" alt="EastDong314 GitHub contribution chart" />
-</p>
-
 ## Contact
 
 - Email: `cryeshiren@gmail.com`
