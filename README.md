@@ -6,8 +6,8 @@
 
 <p>
   <a href="https://github.com/EastDong314"><img src="https://img.shields.io/badge/GitHub-@EastDong314-181717?style=for-the-badge&logo=github" /></a>
-  <img src="https://img.shields.io/badge/Primary-Java%20%7C%20Spring%20%7C%20React-0a66c2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-System%20Design%20%7C%20Performance%20%7C%20AI-1f883d?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Primary-.NET%20Core%20%7C%20Java%20%7C%20Spring-0a66c2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Infra-Kubernetes%20%7C%20Docker%20%7C%20Redis-1f883d?style=for-the-badge" />
 </p>
 
 </div>
@@ -16,6 +16,7 @@
 
 - I build reliable backend systems and practical AI-powered tools.
 - 主攻后端与全栈工程，关注高并发、可观测性、交付效率。
+- Core stack: `.NET Core` `Java` `Spring Boot` `Kubernetes`.
 - Most production code is private, but I share architecture, outcomes, and reusable patterns publicly.
 
 ## Private Project Highlights / 私有项目亮点（脱敏展示）
@@ -44,6 +45,8 @@ I will keep publishing sanitized and reusable engineering assets here:
 ## Tech Stack / 技术栈
 
 <p>
+  <img src="https://img.shields.io/badge/.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
@@ -57,13 +60,16 @@ I will keep publishing sanitized and reusable engineering assets here:
 ## GitHub Overview
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=EastDong314&show_icons=true&theme=transparent&rank_icon=github" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EastDong314&layout=compact&theme=transparent" />
+  <img height="165" src="https://streak-stats.demolab.com?user=EastDong314&theme=transparent&hide_border=true" />
+</p>
+
+<p>
+  <img height="165" src="https://ghchart.rshah.org/409ba5/EastDong314" alt="EastDong314 GitHub contribution chart" />
 </p>
 
 ## Contact
 
-- Email: `youremail@example.com`
+- Email: `cryeshiren@gmail.com`
 - X / LinkedIn / WeChat: updating soon
 
 ---
