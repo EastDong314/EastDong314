@@ -70,7 +70,6 @@ I will keep publishing sanitized and reusable engineering assets here:
 ## Contact
 
 - Email: `cryeshiren@gmail.com`
-- X / LinkedIn / WeChat: updating soon
 
 ---
 
