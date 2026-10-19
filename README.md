@@ -85,15 +85,9 @@
 
 ## Architecture / 这套东西怎么串起来
 
-```mermaid
-flowchart TD
-    A["grill-with-docs · 对齐范围与术语"] --> B["plan-acceptance · GOAL / PLAN / ACCEPTANCE"]
-    B --> C["implement · 按计划执行"]
-    C --> D["review-md · 评审 diff 产出 REVIEW"]
-    D -->|changes requested| C
-    D -->|passed| E["merge"]
-    F["diagnose · 证据优先定位"] -.-> C
-```
+<p align="center">
+  <img src="assets/workflow.svg" width="900" alt="Codex × pi 协作流程：对齐 → 规划 → 实现 → 评审 → 合并，评审不通过回到实现" />
+</p>
 
 > 规划与实现由不同模型承担，中间用文件交接。状态在仓库里，不在聊天记录里——换个会话、换个人接手都能继续。
 
@@ -188,41 +182,3 @@ flowchart TD
 <img src="https://komarev.com/ghpvc/?username=EastDong314&label=Profile%20views&color=58A6FF&style=flat-square" alt="profile views" />
 
 </div>
-
-
-
----
-
-<!-- TEMP-MERMAID-PROBE2 -->
-## probe2
-
-
-**P1_solid_arrow**
-
-```mermaid
-flowchart TD
-    A["grill-with-docs · 对齐范围与术语"] --> B["plan-acceptance · GOAL / PLAN / ACCEPTANCE"]
-    B --> C["implement · 按计划执行"]
-    C --> D["review-md · 评审 diff 产出 REVIEW"]
-    D -->|changes requested| C
-    D -->|passed| E["merge"]
-    F["diagnose · 证据优先定位"] --> C
-```
-
-
-**P2_dotted_unquoted**
-
-```mermaid
-flowchart TD
-    F --> C
-    C --> D
-    F -.-> D
-```
-
-
-**P3_dotted_only**
-
-```mermaid
-flowchart TD
-    A["a"] -.-> B["b"]
-```
