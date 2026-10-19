@@ -188,3 +188,72 @@ flowchart TD
 <img src="https://komarev.com/ghpvc/?username=EastDong314&label=Profile%20views&color=58A6FF&style=flat-square" alt="profile views" />
 
 </div>
+
+
+
+---
+
+<!-- TEMP-MERMAID-PROBE -->
+## mermaid probe
+
+
+**V1_basic**
+
+```mermaid
+flowchart TD
+    A --> B
+```
+
+
+**V2_cjk**
+
+```mermaid
+flowchart TD
+    A["中文标签"] --> B["中文目标"]
+```
+
+
+**V3_middot**
+
+```mermaid
+flowchart TD
+    A["含 · 中点"] --> B["GOAL / PLAN"]
+```
+
+
+**V4_edgelabel**
+
+```mermaid
+flowchart TD
+    A -->|changes requested| B
+```
+
+
+**V5_cycle**
+
+```mermaid
+flowchart TD
+    C --> D
+    D -->|passed| C
+```
+
+
+**V6_dotted**
+
+```mermaid
+flowchart TD
+    F["x"] -.-> C["y"]
+```
+
+
+**V7_full**
+
+```mermaid
+flowchart TD
+    A["grill-with-docs · 对齐范围与术语"] --> B["plan-acceptance · GOAL / PLAN / ACCEPTANCE"]
+    B --> C["implement · 按计划执行"]
+    C --> D["review-md · 评审 diff 产出 REVIEW"]
+    D -->|changes requested| C
+    D -->|passed| E["merge"]
+    F["diagnose · 证据优先定位"] -.-> C
+```
