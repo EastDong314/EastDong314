@@ -193,60 +193,11 @@ flowchart TD
 
 ---
 
-<!-- TEMP-MERMAID-PROBE -->
-## mermaid probe
+<!-- TEMP-MERMAID-PROBE2 -->
+## probe2
 
 
-**V1_basic**
-
-```mermaid
-flowchart TD
-    A --> B
-```
-
-
-**V2_cjk**
-
-```mermaid
-flowchart TD
-    A["中文标签"] --> B["中文目标"]
-```
-
-
-**V3_middot**
-
-```mermaid
-flowchart TD
-    A["含 · 中点"] --> B["GOAL / PLAN"]
-```
-
-
-**V4_edgelabel**
-
-```mermaid
-flowchart TD
-    A -->|changes requested| B
-```
-
-
-**V5_cycle**
-
-```mermaid
-flowchart TD
-    C --> D
-    D -->|passed| C
-```
-
-
-**V6_dotted**
-
-```mermaid
-flowchart TD
-    F["x"] -.-> C["y"]
-```
-
-
-**V7_full**
+**P1_solid_arrow**
 
 ```mermaid
 flowchart TD
@@ -255,5 +206,23 @@ flowchart TD
     C --> D["review-md · 评审 diff 产出 REVIEW"]
     D -->|changes requested| C
     D -->|passed| E["merge"]
-    F["diagnose · 证据优先定位"] -.-> C
+    F["diagnose · 证据优先定位"] --> C
+```
+
+
+**P2_dotted_unquoted**
+
+```mermaid
+flowchart TD
+    F --> C
+    C --> D
+    F -.-> D
+```
+
+
+**P3_dotted_only**
+
+```mermaid
+flowchart TD
+    A["a"] -.-> B["b"]
 ```
