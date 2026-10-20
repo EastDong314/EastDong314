@@ -203,8 +203,4 @@
 
 <sub><i>"Ship robust systems. Keep learning in public."</i></sub>
 
-<br />
-
-<img src="https://komarev.com/ghpvc/?username=EastDong314&label=Profile%20views&color=58A6FF&style=flat-square" alt="profile views" />
-
 </div>
